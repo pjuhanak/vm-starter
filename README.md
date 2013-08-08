@@ -37,7 +37,8 @@ We can exclude a specific VM from start order.
 
 Start VM lab
 ------------
-      d:\pentest\py\vm>vm.py ./lab02.conf
+
+      d:\pentest\py\vm>**vm.py ./lab02.conf**
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
       [*] START VM PFSense VLAN1 after 0 sec.
@@ -52,11 +53,13 @@ Start VM lab
       Waiting for VM "WinXP.SP3" to power on...
       VM "WinXP.SP3" has been successfully started.
 
+START is a default action which is equivalent to
 
+d:\pentest\py\vm>**vm.py ./lab02.conf START**
 
 Restart running lab
 -------------------
-      d:\pentest\py\vm>vm.py ./lab02.conf RESET
+      d:\pentest\py\vm>vm.py ./lab02.conf **RESET**
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
       
@@ -70,7 +73,7 @@ Restart running lab
 
 Stop VM lab
 -----------
-      d:\pentest\py\vm>vm.py ./lab02.conf STOP
+      d:\pentest\py\vm>vm.py ./lab02.conf **STOP**
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
       
