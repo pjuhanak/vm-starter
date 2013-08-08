@@ -7,7 +7,7 @@ VirtualBox - https://www.virtualbox.org
 
 
 Usage
-=====
+-----
 
       d:\pentest\py\vm>vm.py
             
@@ -19,7 +19,7 @@ Usage
    
 
 Lab config file
-===============
+---------------
 Lab config file defines set of VM for start. We can define a delay between VMs starts in seconds.
 We can exclude a specific VM from start order.
 
@@ -35,8 +35,8 @@ We can exclude a specific VM from start order.
       VM007           |-|       | This VM will not start due to missing start symbol
 
 
-Start VM LAB
-============
+Start VM lab
+------------
       d:\pentest\py\vm>vm.py ./lab02.conf
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
@@ -55,7 +55,7 @@ Start VM LAB
 
 
 Restart running lab
-===================
+-------------------
       d:\pentest\py\vm>vm.py ./lab02.conf RESET
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
@@ -68,8 +68,8 @@ Restart running lab
 
 
 
-Stop VM LAB
-============
+Stop VM lab
+-----------
       d:\pentest\py\vm>vm.py ./lab02.conf STOP
       VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
       
