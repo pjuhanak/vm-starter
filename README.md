@@ -9,13 +9,13 @@ VirtualBox - https://www.virtualbox.org
 Usage
 =====
 
-d:\pentest\py\vm>vm.py
+   d:\pentest\py\vm>vm.py
 
-VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
+   VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
 
-Usage: vm.py <lab.config> [START|stop|reset]
+   Usage: vm.py <lab.config> [START|stop|reset]
 
-   [!] Error: missing config file
+      [!] Error: missing config file
    
 
 Lab config file
