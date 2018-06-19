@@ -2,7 +2,7 @@
 """
 VM starter - start your virtual hosts based on config file
 --------------------------------------------------------------------------------
-@author  Petr Juhanak,  http://www.lockdown.cz/tools
+@author  Petr Juhanak,  http://www.hackerlab.cz
 @release 1.0, 20130808
 @licence GPLv3          http:://www.gnu.org/licenses/gpl-3.0.html
 --------------------------------------------------------------------------------
