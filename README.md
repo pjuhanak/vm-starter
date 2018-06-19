@@ -11,7 +11,7 @@ Usage
 
       d:\pentest\py\vm>vm.py
             
-      VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
+      VM starter 1.0 - Petr Juhanak | http://www.hackerlab.cz (GPLv3)
       
       Usage: vm.py <lab.config> [START|stop|reset]
       
@@ -39,7 +39,7 @@ Start VM lab
 ------------
 
       d:\pentest\py\vm>vm.py ./lab02.conf
-      VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
+      VM starter 1.0 - Petr Juhanak | http://www.hackerlab.cz (GPLv3)
       
       [*] START VM PFSense VLAN1 after 0 sec.
       Waiting for VM "PFSense VLAN1" to power on...
@@ -60,7 +60,7 @@ d:\pentest\py\vm>vm.py ./lab02.conf START
 Restart running lab
 -------------------
       d:\pentest\py\vm>vm.py ./lab02.conf RESET
-      VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
+      VM starter 1.0 - Petr Juhanak | http://www.hackerlab.cz (GPLv3)
       
       
       [*] RESET VM PFSense VLAN1 after 0 sec.
@@ -74,7 +74,7 @@ Restart running lab
 Stop VM lab
 -----------
       d:\pentest\py\vm>vm.py ./lab02.conf STOP
-      VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)
+      VM starter 1.0 - Petr Juhanak | http://www.hackerlab.cz (GPLv3)
       
       
       [*] STOP VM PFSense VLAN1
