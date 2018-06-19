@@ -22,7 +22,7 @@ if os.name == 'nt':
 
 # functions
 def show_banner():
-    print "VM starter 1.0 - Petr Juhanak | http://www.lockdown.cz/tools (GPLv3)"
+    print "VM starter 1.0 - Author Petr Juhanak | http://www.hackerlab.cz (GPLv3)"
     print ""
 
 def report_error(message):
